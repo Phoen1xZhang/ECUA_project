@@ -1,0 +1,46 @@
+{
+    "single-action": [
+        "`TYPING` 'conda create -n my_env python=3.10'",
+        "`PRESS` 'enter'",
+        "`WAIT`",
+        "`TYPING` 'enter'",
+        "`WAIT`",
+        "`TYPING` 'conda activate my_env'",
+        "`PRESS` 'enter'",
+        "`TYPING` 'cd my_project'",
+        "`PRESS` 'enter'",
+        "`TYPING` 'pip install requirements.txt'",
+        "`PRESS` 'enter'",
+        "`WAIT`",
+        "`TYPING` 'python run.py'",
+        "`PRESS` 'enter'"
+    ],
+    "grouped-action": [
+        [
+            "`TYPING` 'conda create -n my_env python=3.10'",
+            "`PRESS` 'enter'",
+            "`WAIT`"
+        ],
+        [
+            "`TYPING` 'enter'",
+            "`WAIT`"
+        ],
+        [
+            "`TYPING` 'conda activate my_env'",
+            "`PRESS` 'enter'"
+        ],
+        [
+            "`TYPING` 'cd my_project'",
+            "`PRESS` 'enter'"
+        ],
+        [
+            "`TYPING` 'pip install requirements.txt'",
+            "`PRESS` 'enter'",
+            "`WAIT`"
+        ],
+        [
+            "`TYPING` 'python run.py'",
+            "`PRESS` 'enter'"
+        ]
+    ]
+}

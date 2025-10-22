@@ -1,0 +1,76 @@
+{
+    "single-action": [
+        "`CLICK` 'sync-up' under 'Channels' in the menu",
+        "`CLICK` 'Files'",
+        "`CLICK` 'Huddle notes: 10/15/25 in #sync-up' in the 'Documents' section",
+        "`HOTKEY` Ctrl+A",
+        "`HOTKEY` Ctrl+C",
+        "`CLICK` Chrome icon",
+        "`CLICK` address bar",
+        "`TYPING` 'docs.google.com'",
+        "`PRESS` 'enter'",
+        "`CLICK` 'Blank document'",
+        "`HOTKEY` Ctrl+V",
+        "`HOTKEY` Ctrl+A",
+        "`CLICK` 'Font'",
+        "`SCROLL` the font bar until 'Times New Roman' is found",
+        "`CLICK` 'Times New Roman'",
+        "`CLICK` 'Untitled document'",
+        "`TYPING` '10_15_meeting'",
+        "`PRESS` 'enter'",
+        "`CLICK` 'File'",
+        "`MOVE_TO` 'Download'",
+        "`CLICK` 'PDF Document'"
+    ],
+    "grouped-action": [
+        [
+            "`CLICK` 'sync-up' under 'Channels' in the menu"
+        ],
+        [
+            "`CLICK` 'Files'"
+        ],
+        [
+            "`CLICK` 'Huddle notes: 10/15/25 in #sync-up' in the 'Documents' section"
+        ],
+        [
+            "`HOTKEY` Ctrl+A",
+            "`HOTKEY` Ctrl+C"
+        ],
+        [
+            "`CLICK` Chrome icon"
+        ],
+        [
+            "`CLICK` address bar",
+            "`TYPING` 'docs.google.com'",
+            "`PRESS` 'enter'"
+        ],
+        [
+            "`CLICK` 'Blank document'"
+        ],
+        [
+            "`HOTKEY` Ctrl+V",
+            "`HOTKEY` Ctrl+A",
+            "`CLICK` 'Font'"
+        ],
+        [
+            "`SCROLL` the font bar until 'Times New Roman' is found"
+        ],
+        [
+            "`CLICK` 'Times New Roman'"
+        ],
+        [
+            "`CLICK` 'Untitled document'",
+            "`TYPING` '10_15_meeting'",
+            "`PRESS` 'enter'"
+        ],
+        [
+            "`CLICK` 'File'"
+        ],
+        [
+            "`MOVE_TO` 'Download'"
+        ],
+        [
+            "`CLICK` 'PDF Document'"
+        ]
+    ]
+}
