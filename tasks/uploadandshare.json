@@ -1,0 +1,44 @@
+{
+  "single-action": [
+    "`CLICK` on 'Google Chrome' in the Dock",
+    "`CLICK` address bar",
+    "`TYPING` https://drive.google.com/drive/my-drive",
+    "`PRESS` Enter",
+    "`WAIT`",
+    "`CLICK` on '+ New'",
+    "`CLICK` on 'File upload'",
+    "`TYPING` Report.pdf",
+    "`PRESS` Enter",
+    "`WAIT`",
+    "`CLICK` on 'Report.pdf' to select it",
+    "`CLICK` on 'Link icon' in the top toolbar to copy link",
+    "`CLICK` on 'Visual Studio Code' in the Dock",
+    "`HOTKEY` ['command','v']",
+    "`HOTKEY` ['command','s']"
+  ],
+  "grouped-action": [
+    [
+      "`CLICK` on 'Google Chrome' in the Dock",
+      "`CLICK` address bar",
+      "`TYPING` https://drive.google.com/drive/my-drive",
+      "`PRESS` Enter",
+      "`WAIT`"
+    ],
+    [
+      "`CLICK` on '+ New'",
+      "`CLICK` on 'File upload'",
+      "`TYPING` Report.pdf",
+      "`PRESS` Enter",
+      "`WAIT`"
+    ],
+    [
+      "`CLICK` on 'Report.pdf' to select it",
+      "`CLICK` on 'Link icon' in the top toolbar to copy link",
+    ],
+    [
+      "`CLICK` on 'Visual Studio Code' in the Dock",
+      "`HOTKEY` ['command','v']",
+      "`HOTKEY` ['command','s']"
+    ]
+  ]
+}

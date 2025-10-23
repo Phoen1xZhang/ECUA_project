@@ -1,0 +1,54 @@
+{
+  "single-action": [
+    "`CLICK` address bar",
+    "`TYPING` https://www.speedtest.net/",
+    "`PRESS` Enter",
+    "`WAIT`",
+    "`CLICK` on 'GO'",
+    "`WAIT`",
+    "`CLICK` on 'Results'",
+    "`WAIT`",
+    "`HOTKEY` ['command','p']",
+    "`WAIT`",
+    "`PRESS` Enter",
+    "`WAIT`",
+    "`PRESS` Enter"
+  ],
+  "grouped-action": [
+    [
+      "`CLICK` address bar",
+      "`TYPING` https://www.speedtest.net/",
+      "`PRESS` Enter"
+    ],
+    [
+      "`WAIT`"
+    ],
+    [
+      "`CLICK` on 'GO'"
+    ],
+    [
+      "`WAIT`"
+    ],
+    [
+      "`CLICK` on 'Results'"
+    ],
+    [
+      "`WAIT`"
+    ],
+    [
+      "`HOTKEY` ['command','p']"
+    ],
+    [
+      "`WAIT`"
+    ],
+    [
+      "`PRESS` Enter"
+    ],
+    [
+      "`WAIT`"
+    ],
+    [
+      "`PRESS` Enter"
+    ]
+  ]
+}
