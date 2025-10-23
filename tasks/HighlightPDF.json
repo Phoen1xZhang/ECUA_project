@@ -1,0 +1,43 @@
+{
+  "single-action": [
+    "`HOTKEY` 'Command-Space' to open Spotlight",
+    "`TYPE` 'Finder'",
+    "`ENTER`",
+    "`CLICK` 'Downloads' in Finder sidebar",
+    "`DOUBLE-CLICK` 'Report.pdf' to open in Preview",
+    "`DRAG` to select one line of text in the PDF",
+    "`CLICK` 'Tools' menu in Preview",
+    "`CLICK` 'Annotate'",
+    "`CLICK` 'Highlight Text'",
+    "`CLICK` 'File' menu",
+    "`CLICK` 'Export…'",
+    "`TYPE` 'Report_Annotated'",
+    "`CLICK` 'Where' dropdown if needed",
+    "`CLICK` 'Documents'",
+    "`CLICK` 'Save'"
+  ],
+  "grouped-action": [
+    [
+      "`HOTKEY` 'Command-Space' to open Spotlight",
+      "`TYPE` 'Finder'",
+      "`ENTER`"
+    ],
+    [
+      "`CLICK` 'Downloads' in Finder sidebar",
+      "`DOUBLE-CLICK` 'Report.pdf' to open in Preview"
+    ],
+    [
+      "`DRAG` to select a line of text",
+      "`CLICK` 'Tools'",
+      "`CLICK` 'Annotate'",
+      "`CLICK` 'Highlight Text'"
+    ],
+    [
+      "`CLICK` 'File'",
+      "`CLICK` 'Export…'",
+      "`TYPE` 'Report_Annotated'",
+      "`CLICK` 'Documents'",
+      "`CLICK` 'Save'"
+    ]
+  ]
+}

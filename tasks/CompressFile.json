@@ -1,0 +1,32 @@
+{
+  "single-action": [
+    "`HOTKEY` 'Command-Space' to open Spotlight",
+    "`TYPE` 'Terminal'",
+    "`ENTER`",
+    "`TYPE` 'cd ~/Downloads'",
+    "`ENTER`",
+    "`TYPE` 'tar -czf logs.tar.gz *.log'",
+    "`ENTER`",
+    "`TYPE` 'mv logs.tar.gz ~/Documents/'",
+    "`ENTER`"
+  ],
+  "grouped-action": [
+    [
+      "`HOTKEY` 'Command-Space' to open Spotlight",
+      "`TYPE` 'Terminal'",
+      "`ENTER`"
+    ],
+    [
+      "`TYPE` 'cd ~/Downloads'",
+      "`ENTER`"
+    ],
+    [
+      "`TYPE` 'tar -czf logs.tar.gz *.log'",
+      "`ENTER`"
+    ],
+    [
+      "`TYPE` 'mv logs.tar.gz ~/Documents/'",
+      "`ENTER`"
+    ]
+  ]
+}
