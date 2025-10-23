@@ -1,0 +1,39 @@
+{
+  "single-action": [
+    "`OPEN_APP` 'Firefox'",
+    "`TYPE` 'https://www.overleaf.com/project/1234567890abcdef' into address bar",
+    "`PRESS` 'Enter'",
+    "`CLICK` 'Download PDF'",
+    "`TYPE` '~/Documents/OverleafPDFs' into download path input",
+    "`PRESS` 'Enter'",
+    "`OPEN_APP` 'Firefox'",
+    "`TYPE` 'https://drive.google.com' into address bar",
+    "`PRESS` 'Enter'",
+    "`CLICK` 'New'",
+    "`CLICK` 'File upload'",
+    "`TYPE` '~/Documents/OverleafPDFs/project.pdf' into file picker",
+    "`PRESS` 'Enter'"
+  ],
+  "grouped-action": [
+    [
+      "`OPEN_APP` 'Firefox'",
+      "`TYPE` 'https://www.overleaf.com/project/1234567890abcdef' into address bar",
+      "`PRESS` 'Enter'"
+    ],
+    [
+      "`CLICK` 'Download PDF'",
+      "`TYPE` '~/Documents/OverleafPDFs' into download path input",
+      "`PRESS` 'Enter'"
+    ],
+    [
+      "`TYPE` 'https://drive.google.com' into address bar",
+      "`PRESS` 'Enter'"
+    ],
+    [
+      "`CLICK` 'New'",
+      "`CLICK` 'File upload'",
+      "`TYPE` '~/Documents/OverleafPDFs/project.pdf' into file picker",
+      "`PRESS` 'Enter'"
+    ]
+  ]
+}

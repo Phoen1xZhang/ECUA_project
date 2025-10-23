@@ -1,0 +1,28 @@
+{
+  "single-action": [
+    "`OPEN_APP` 'Zoom'",
+    "`CLICK` 'Join Meeting'",
+    "`TYPE` '123-456-7890' into Meeting ID input",
+    "`PRESS` 'Enter'",
+    "`CLICK` 'Join with Computer Audio'",
+    "`CLICK` 'Mute Microphone'",
+    "`CLICK` 'Turn Off Camera'"
+  ],
+  "grouped-action": [
+    [
+      "`OPEN_APP` 'Zoom'",
+      "`CLICK` 'Join Meeting'"
+    ],
+    [
+      "`TYPE` '123-456-7890' into Meeting ID input",
+      "`PRESS` 'Enter'"
+    ],
+    [
+      "`CLICK` 'Join with Computer Audio'"
+    ],
+    [
+      "`CLICK` 'Mute Microphone'",
+      "`CLICK` 'Turn Off Camera'"
+    ]
+  ]
+}
