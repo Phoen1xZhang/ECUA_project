@@ -1,0 +1,21 @@
+{
+  "single-action": [
+    "`DOUBLE_CLICK` template file",
+    "`MOVE_TO` before the placeholder",
+    "`DRAG_TO` after the placeholder",
+    "`HOTKEY` Ctrl+V to paste clipboard content",
+    "`HOTKEY` Ctrl+S to save the document"
+  ],
+  "grouped-action": [
+    [
+      "`DOUBLE_CLICK` template file"
+    ],
+    [
+      "`MOVE_TO` before the placeholder",
+      "`DRAG_TO` after the placeholder",
+      "`HOTKEY` Ctrl+V to paste clipboard content",
+      "`HOTKEY` Ctrl+S to save the document"
+    ]
+  ]
+}
+  

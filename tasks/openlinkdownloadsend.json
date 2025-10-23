@@ -1,0 +1,58 @@
+{
+  "single-action": [
+      "`CLICK` the download button",
+      "`WAIT` for the download page to load",
+      "`CLICK` save botton",
+      "`CLICK` 'Desktop'",
+      "`PRESS` 'Enter'",
+      "`WAIT` for download to complete",
+      "`CLICK` back to Outlook",
+      "`CLICK` 'New Email'",
+      "`TYPING` email address",
+      "`CLICK` 'Attach File'",
+      "`CLICK` 'Desktop'",
+      "`CLICK` the targeted file",
+      "`PRESS` 'Enter'",
+      "`CLICK` 'Send'"
+  ],
+  "grouped-action": [
+    [
+      "`CLICK` the download button"
+    ],
+    [
+      "`WAIT` for Chrome to open and the download page to load"
+    ],
+    [
+      "`CLICK` save botton"
+    ],
+    [
+      "`CLICK` 'Desktop'"
+    ],
+    [
+      "`PRESS` 'Enter'"
+    ],
+    [
+      "`WAIT` for download to complete"
+    ],
+    [
+      "`CLICK` back to Outlook"
+    ],
+    [
+      "`CLICK` 'New Email'"
+    ],
+    [
+      "`TYPING` email address",
+      "`CLICK` 'Attach File'"
+    ],
+    [
+      "`CLICK` 'Desktop'"
+    ],
+    [
+      "`CLICK` the file",
+      "`PRESS` 'Enter'"
+    ],
+    [
+      "`CLICK` 'Send'"
+    ]
+  ]
+}
